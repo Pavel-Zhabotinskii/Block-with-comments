@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Comment</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container _container"></div>
+			</header>
+			<main class="main-page _container">
+				<aside class="aside__container"></aside>
+				<div class="main-page__contnet page">
+					<div class="page__content content">
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item"></div>
+						<div class="content__item_big"></div>
+						<hr class="content__line">
+					</div>
+					<div class="page__comment comment">
+						<div class="comment__switch_content">
+							<div class="switch__comment"><button class="switch__btn active__switch">Комментарии <span class="switch__comment_number">(0)</span></button></div>
+							<div class="switch__favorites"><button class="switch__btn">Избранное<img src="./img/main/Mask group-like.svg" alt="button like" class="btn-img__favorites"></button></div>
+						</div>
+						<div class="comment__container input">
+							<form id="input__item">
+								<div>
+									<div class="input__item_container">
+										<div>
+											<input type="text" placeholder="Ваше имя..." class="input__name">
+											<input type="text" placeholder="DD.MM.YYYY" class="input__date">
+										</div>
+										<p class="input__score">Макс. 1000 символов</p>
+									</div>
+									<textarea class="input__body" placeholder="Введите текст сообщения..." rows="1"></textarea>
+								</div>
+								<button class="input__btn">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="./js/script.js" type="module"></script>
+	</body>
+</html>
